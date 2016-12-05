@@ -6,6 +6,9 @@ _(none)_
 
 --------------------
 
+## 5.1.1-0 (2016-12-05)
+_(none)_
+
 ## 5.1.0 (2016-07-18)
 * @alex-philips added support for the onTextData event
 
