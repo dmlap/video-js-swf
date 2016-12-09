@@ -153,6 +153,7 @@ package com.videojs.providers{
                 }
                 _model.broadcastEventExternally(ExternalEventName.ON_CAN_PLAY);
                 _model.broadcastEvent(new VideoPlaybackEvent(VideoPlaybackEvent.ON_STREAM_START, {info:{}}));
+                _model.broadcastEventExternally(ExternalEventName.ON_START);
                 break;
               case HLSPlayStates.PAUSED:
                 _isPaused = true;
